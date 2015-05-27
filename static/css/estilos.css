@@ -1,0 +1,140 @@
+.Body-login{
+	background-color: #92ACE4;
+}
+.container-login{
+	font-family: 'Droid Serif', serif;
+	background: #ffffff;
+	border-radius: 2em;
+	padding: 1.5em;
+}
+.container-principalLogin{
+	background: #243078;
+	border: 0.1em solid #351414;
+	border-radius: 2em;
+	box-shadow: inset 0px 0px 2px 1px rgba(255, 255, 255, 0.078), 0px 16px 10px -8px rgba(0, 0, 0, 0.600);
+	margin-top: 10em; 
+	height: auto;
+	padding: 1.5em;
+	width: 100%;
+	/*transition: all 2s  ease-in-out;*/
+}
+/*.container-principalLogin:hover{
+	transform: rotate(720deg) scale(1,1);
+}*/
+.Footer{
+	background-color: black;/*#765050;*/
+	bottom: 0em;
+	height: auto; 
+	opacity: 0.8;
+	padding: 5em;
+	position: absolute;
+	width: 100%;
+}
+.FooterMenu-link{
+	color: #fff;
+	font-size: 1.5em;
+	padding: 0.5em;
+	text-decoration: none;
+}
+.FooterMenu-link:hover{
+	color: white;
+	text-decoration: none;
+}
+.FooterMenu-item{
+	display: inline-block;
+	padding: .5em;
+}
+.FooterMenu-item:hover{
+	background: #765050;
+	border-radius: 1em;
+	cursor: pointer;
+	cursor: hand;
+}
+.FooterMenu-list{
+	display: block;
+	list-style-position: outside;
+	list-style-type: disc;
+	text-align: center;
+}
+.Forgot-password{
+	font-size: 1.1em;
+	padding-top: 1.5em;
+}
+.Forgot-password a{
+	display: block;
+}
+.Header-navbar{
+	background: #243078;
+}
+.Header-imageUser{
+	border: 5px solid white;
+	border-radius: 50%;
+	width: 100%;
+}
+.input-Username, .input-Password{
+	margin-top: 1.5em;
+}
+.NavbarMenu-item{
+	color: white;
+}
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: white;
+}
+.question-Login{
+	color: white;
+	font-size: 1.1em;
+	padding: 1em;
+	text-align: center;
+}
+.remember-passwordLabel{
+	text-align: right;
+	padding: 1.5em 0;
+}
+.Username-label{
+	color: #fff;
+	font-size: 3em;
+	padding: 1em;
+}
+.welcome-labels{
+	border-radius: 0.8em 0.8em 0 0; 
+	padding: 1.1em;
+	background: #243078;
+}
+.welcome-labels span{
+	display: block;
+}
+.welcome-toIclass{
+	background: #FFFFFF;
+	color: #000;
+	font-size: 1.5em;
+	padding: 1em;
+}
+/*MEDIAS QUERY*/
+/*@media(max-width: 990px){
+	.welcome-toIclass{
+		font-size: 1.1em;
+	}
+}
+@media(max-width: 990px){
+	.container-principalLogin{
+		left: 15em;
+	}
+}*/
+@media(max-width: 1200px){
+	.welcome-toIclass{
+		font-size: 1.1em;
+	}
+}
+@media(max-width: 700px){
+	.welcome-toIclass{
+		font-size: 0.8em;
+	}
+}
+@media(max-width: 800px){
+	.Body-login{
+		background-image: url('../images/2015-05-05.jpg');
+	}
+}
